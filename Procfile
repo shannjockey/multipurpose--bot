@@ -1,1 +1,1 @@
-python3 embedbotsender.py
+worker: python3 embedbotsender.py
