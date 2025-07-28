@@ -175,6 +175,6 @@ More commands coming soon!
     embed.set_thumbnail(url="https://i.imgur.com/Qys8KcJ.png")
     await ctx.send(embed=embed)
 
-# 🔐 Replace 'MTM..' with your bot token!
-
-bot.run("MTM5OTE2NjA3ODI4NTc3NTA1MA.GY5XhD.Ovj7YNwtSKT2xEoRB7aY9nU6FzEoRxSZKkQ634")
+import os
+token = os.getenv("DISCORD_TOKEN")
+bot.run(token)
